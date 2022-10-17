@@ -7,7 +7,7 @@
     <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../kokoa-clone-2022/css/styles.css" />
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -30,9 +30,13 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form
+      action="../kokoa-clone-2022/friends.html"
+      method="get"
+      id="login-form"
+    >
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
